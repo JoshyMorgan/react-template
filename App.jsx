@@ -1,12 +1,15 @@
 import React from 'react'
-import Hello from './Hello.jsx'
-
+import Intro from './Intro.jsx'
+import Quiz from './components/Quiz.jsx'
+import { BrowserRouter, Link, Route, Switch } from 'react-router-dom'
 export default class App extends React.Component{
     render(){
         return(
         <div>
-           <Hello name='Thanh'/>
-           <Hello name='Hien'/>
+            <BrowserRouter>
+                {/* <Intro/> */}
+                <Quiz/>
+            </BrowserRouter>
         </div>
         )
     }
