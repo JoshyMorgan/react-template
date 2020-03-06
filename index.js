@@ -1,3 +1,4 @@
+import express from "express"
 var express = require("express")
 var app = express()
 var path = require("path")
@@ -6,6 +7,7 @@ var path = require("path")
 app.use(express.static(path.join(__dirname)))
 app.use("/images", express.static(__dirname + "/images"))
 app.use("components", express.static(__dirname + "/components"))
+app.use("/scripts", express.static(__dirname));
 app.use("/semantic", express.static(__dirname + "/semantic"))
 
 //
