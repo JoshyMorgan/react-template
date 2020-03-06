@@ -6,8 +6,7 @@ var path = require("path")
 //locate the directory 
 app.use(express.static(path.join(__dirname)))
 app.use("/images", express.static(__dirname + "/images"))
-app.use("components", express.static(__dirname + "/components"))
-app.use("/scripts", express.static(__dirname));
+app.use("/components", express.static(__dirname + "/components"))
 app.use("/semantic", express.static(__dirname + "/semantic"))
 
 //
