@@ -1,15 +1,6 @@
-import requirejs, { config } from 'requirejs';
-
-config({
-    //Pass the top-level main.js/index.js require
-    //function to requirejs so that node modules
-    //are loaded relative to the top-level JS file.
-    nodeRequire: require
-});
-
-var express = requirejs('express');
+var express = require('express');
 var app = express();
-var path = requirejs('path');
+var path = require('path');
 
 
 //locate the directory 
