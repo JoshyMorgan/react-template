@@ -5,7 +5,7 @@ import { BrowserRouter, Link, Route, Switch } from 'react-router-dom'
 export default class App extends React.Component{
     render(){
         return(
-        <div>
+        <div class='bg'>
                 {/* <Intro/> */}
                 <Quiz/>
         </div>
