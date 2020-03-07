@@ -6,10 +6,9 @@ export default class App extends React.Component{
     render(){
         return(
         <div>
-            <BrowserRouter>
+            
                 {/* <Intro/> */}
                 <Quiz/>
-            </BrowserRouter>
         </div>
         )
     }
