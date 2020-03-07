@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "webpack-dev-server"
    },
+=======
+    "start": "webpack-dev-server",
+    "heroku-postbuild": "npm run build"
+  },
+>>>>>>> parent of aac57f4... index.js updated
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -14,7 +20,6 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "bootstrap": "^4.4.1",
-    "express": "^4.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
