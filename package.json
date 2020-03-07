@@ -4,14 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "webpack-dev-server"
-   },
-=======
     "start": "webpack-dev-server",
     "heroku-postbuild": "npm run build"
   },
->>>>>>> parent of aac57f4... index.js updated
   "author": "",
   "license": "ISC",
   "dependencies": {
