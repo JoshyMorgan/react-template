@@ -7,7 +7,8 @@ export default class App extends React.Component{
         return(
         <div class='bg'>
                 {/* <Intro/> */}
-                <Quiz/>
+                {/* <Quiz/> */}
+            hello world
         </div>
         )
     }

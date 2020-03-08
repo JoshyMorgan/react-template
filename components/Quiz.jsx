@@ -52,8 +52,6 @@ export default class Quiz extends React.Component {
     }
 
     componentDidMount() {
-        // console.log(QuizData)
-
         this.loadQuiz()
     }
 
