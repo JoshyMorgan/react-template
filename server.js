@@ -9,6 +9,7 @@ app.use("/images", express.static(__dirname + "/images"))
 app.use("/components", express.static(__dirname + "/components"))
 app.use("/semantic", express.static(__dirname + "/semantic"))
 
+
 // viewed at based directory http://localhost:8080/
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname + '/index.html'));
